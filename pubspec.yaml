@@ -1,0 +1,84 @@
+name: sixam_mart
+description: A Multi-vendor Food. Grocery, eCommerce, Pharmacy & Parcel service.
+publish_to: 'none' #
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  get: ^4.6.6
+  shared_preferences: ^2.0.11
+  connectivity_plus: ^5.0.2
+  firebase_core: ^2.4.1
+  firebase_messaging: ^14.2.1
+  flutter_local_notifications: ^16.3.2
+  path_provider: ^2.0.8
+  url_strategy: ^0.2.0
+  pin_code_fields: ^8.0.1
+  geolocator: ^10.1.0
+  google_maps_flutter: ^2.1.5
+  google_maps_flutter_web: ^0.4.0+5
+  flutter_typeahead: ^4.3.7
+  carousel_slider: ^4.0.0
+  shimmer_animation: ^2.1.0+1
+  image_picker: ^1.0.7
+  image_picker_ios: ^0.8.5+6
+  universal_html: ^2.0.8
+  flutter_inappwebview: ^6.0.0
+  flutter_widget_from_html: ^0.14.9
+  flutter_html: 3.0.0-alpha.5
+  url_launcher: ^6.1.2
+  http: ^1.2.0
+  pointer_interceptor: ^0.10.1
+  phone_numbers_parser: ^8.1.0
+  country_code_picker: ^3.0.0
+  cached_network_image: ^3.3.0
+  photo_view: ^0.14.0
+  image_compression_flutter: ^1.0.2
+  dotted_border: ^2.0.0+1
+  share_plus: ^7.2.1
+  expandable_bottom_sheet: ^1.1.1+1
+  google_sign_in: ^5.4.2
+  google_sign_in_web: ^0.10.2
+  flutter_facebook_auth: ^6.0.4
+  flutter_animarker: ^3.2.0
+  sign_in_with_apple: ^4.3.0
+  intl: ^0.18.0
+  just_the_tooltip: ^0.0.12
+  flutter_slidable: ^3.0.0
+  meta_seo: ^3.0.5
+  animated_flip_counter: ^0.2.5
+  youtube_player_iframe: ^4.0.4
+  card_swiper: ^3.0.1
+  audioplayers: ^5.2.1
+  firebase_crashlytics: ^3.4.8
+  video_player: ^2.8.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/image/
+    - assets/language/
+
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: assets/font/Roboto-Regular.ttf
+          weight: 400
+        - asset: assets/font/Roboto-Medium.ttf
+          weight: 500
+        - asset: assets/font/Roboto-Bold.ttf
+          weight: 700
+        - asset: assets/font/Roboto-Black.ttf
+          weight: 900
