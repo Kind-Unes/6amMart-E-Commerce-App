@@ -20,8 +20,8 @@ Welcome to 6AM Mart, your go-to destination for advanced e-commerce solutions ta
 ## Get Started
 ### it uses Flutter sdk: '>=3.2.0 <4.0.0'
 ``
-flutter clean
-flutter pub get
+flutter clean &&
+flutter pub get &&
 flutter run --release 
 ``
 
